@@ -1,0 +1,62 @@
+CONFIGS = [
+    {
+        "name": "Canny 73/198 + closing 2x2 + blur 7x7 + density 0.219",
+        "edge_method": "canny",
+        "low_threshold": 73,
+        "high_threshold": 198,
+        "morph_method": "closing",
+        "kernel_size": (2, 2),
+        "iterations": 1,
+        "use_clahe": False,
+        "clahe_clip_limit": 2.0,
+        "clahe_tile_grid_size": (8, 8),
+        "blur_kernel_size": (7, 7),
+        "blur_sigma": 0,
+        "ideal_density": 0.219
+    },
+    {
+        "name": "Canny 73/198 + closing 2x2 + blur 7x7 + density 0.221",
+        "edge_method": "canny",
+        "low_threshold": 73,
+        "high_threshold": 198,
+        "morph_method": "closing",
+        "kernel_size": (2, 2),
+        "iterations": 1,
+        "use_clahe": False,
+        "clahe_clip_limit": 2.0,
+        "clahe_tile_grid_size": (8, 8),
+        "blur_kernel_size": (7, 7),
+        "blur_sigma": 0,
+        "ideal_density": 0.221
+    },
+    {
+        "name": "Canny 72/198 + closing 2x2 + blur 7x7 + density 0.220",
+        "edge_method": "canny",
+        "low_threshold": 72,
+        "high_threshold": 198,
+        "morph_method": "closing",
+        "kernel_size": (2, 2),
+        "iterations": 1,
+        "use_clahe": False,
+        "clahe_clip_limit": 2.0,
+        "clahe_tile_grid_size": (8, 8),
+        "blur_kernel_size": (7, 7),
+        "blur_sigma": 0,
+        "ideal_density": 0.220
+    },
+    {
+        "name": "Canny 74/199 + closing 2x2 + blur 7x7 + density 0.220",
+        "edge_method": "canny",
+        "low_threshold": 74,
+        "high_threshold": 199,
+        "morph_method": "closing",
+        "kernel_size": (2, 2),
+        "iterations": 1,
+        "use_clahe": False,
+        "clahe_clip_limit": 2.0,
+        "clahe_tile_grid_size": (8, 8),
+        "blur_kernel_size": (7, 7),
+        "blur_sigma": 0,
+        "ideal_density": 0.220
+    }
+]
